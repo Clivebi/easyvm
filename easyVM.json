@@ -1,0 +1,15 @@
+{   "name":"ubuntu20",
+    "cdrom": [],
+    "disk": [
+        "/Users/bitingli/xVM/ubuntu20/disk.img"
+    ],
+    "shared": [
+        ["/Volumes/work/nvtscript","/opt/nvtscript"],
+        ["/Volumes/work/NVTStudio","/opt/NVTStudio"]
+    ],
+    "cpu": 4,
+    "memory": "4GB",
+    "kernel": "/Users/bitingli/xVM/ubuntu20/vmlinuz",
+    "initrd": "/Users/bitingli/xVM/ubuntu20/initrd",
+    "commandline": "console=hvc0 root=/dev/vda"
+}
